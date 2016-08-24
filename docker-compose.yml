@@ -1,0 +1,7 @@
+tittan-gremlin-cassandra:
+    build: .
+    links:
+    - cassandra-titan
+    
+cassandra-titan:
+    image: cassandra:3.0.8
